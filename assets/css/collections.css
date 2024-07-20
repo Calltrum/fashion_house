@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    }
+  .col_banner{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height:100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0.1, 0.1, 0.1, 0.4), rgba(0.1, 0.1, 0.1, 0.4))/* url(place the link to the image here*)*/;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    }
+  
+  .col_content{
+    margin:0 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    }
+  .col_content a{
+    text-decoration: none;
+    color: white;
+    }
+  .shop_btn{
+    width: 100px;
+    height: 30px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
